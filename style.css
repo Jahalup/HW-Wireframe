@@ -7,21 +7,14 @@ body {
     font-size: 18px;
     
 }
-nav {
+nav, header, footer {
     background: #ebebeb;
     display: block;
     padding: 30px;
     margin: 10px;
     text-align: center;
 }
-header {
-    background: #ebebeb;
-    display: block;
-    padding: 30px;
-    margin: 10px;
-    text-align: center;
 
-}
 section {
     background: #ebebeb;
     line-height: 50px;
@@ -30,15 +23,8 @@ section {
 }
 aside {
     background: #ebebeb;
-    
 }
-footer {
-    background: #ebebeb;
-    display: block;
-    padding: 30px;
-    margin: 10px;
-    text-align: center;
-}
+
 article {
     color: #ebebeb;
     background: #777;
@@ -73,13 +59,13 @@ p {
     }
 .containerElement1 {
     width: 500px;
-    margin: 25px;
     text-align: center;
+    padding: 10px;
 
 }
 .containerElement2 {
     width: 500px;
     line-height: 500px;
-    padding: 25px;
+    padding: 10px;
     text-align: center;
 }
