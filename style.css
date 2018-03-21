@@ -1,3 +1,5 @@
+
+/* Sets overall font stle, color, and background color */
 body {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777;
@@ -7,6 +9,7 @@ body {
     font-size: 18px;
     
 }
+/* Nav Header and footer share background, paddings and margins */
 nav, header, footer {
     background: #ebebeb;
     display: block;
@@ -14,15 +17,31 @@ nav, header, footer {
     margin: 10px;
     text-align: center;
 }
+/* Overall Container Style */
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    }
 
+/* Style for section containing article/headings/p */
+.containerElement1 {
+    width: 500px;
+     text-align: center;
+    padding: 10px;
+    
+    }
+/* Basic style for section containing article */
 section {
     background: #ebebeb;
     line-height: 50px;
     padding: 6px;
     
 }
-aside {
-    background: #ebebeb;
+.headings {
+    width: auto;
+    line-height: 100px;
+    margin: 10px;
 }
 
 article {
@@ -31,41 +50,37 @@ article {
     line-height: 100px;
     margin: 20px;
 }
-.headings {
-    width: auto;
-    line-height: 100px;
-    margin: 10px;
+
+h1 {
+    color: #777;
+    background: #ebebeb;
 }
 .paragraphText { 
     width: 50px;
     line-height: 100px;
     margin: 10px;
     width:auto;
-    padding: 10px;
+    padding: 10px;}
 
-}
-h1 {
-    color: #777;
-    background: #ebebeb;
-}
 p {
     color: #777;
-    background: #ebebeb;
-}
-.container {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
+     background: #ebebeb;
     }
-.containerElement1 {
-    width: 500px;
-    text-align: center;
-    padding: 10px;
 
-}
+/* Style for second container holding aside */
 .containerElement2 {
-    width: 500px;
+     width: 500px;
     line-height: 500px;
     padding: 10px;
-    text-align: center;
+     text-align: center;
+    }    
+
+aside {
+    background: #ebebeb;
 }
+
+
+
+
+
+
